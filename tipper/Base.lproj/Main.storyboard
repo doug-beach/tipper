@@ -86,7 +86,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
-                                    <action selector="splitterCountChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="RtJ-9S-fms"/>
+                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="BZA-yk-yi3"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Split check" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jK8-fE-wbH">
@@ -121,8 +121,7 @@
                                 <rect key="frame" x="114" y="359" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="c8T-mz-D8T"/>
-                                    <action selector="incrementSplitter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2If-2a-IqU"/>
+                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="RpX-Os-Bn2"/>
                                 </connections>
                             </stepper>
                         </subviews>
