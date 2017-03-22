@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     @IBAction func calcTip(_ sender: AnyObject) {
         updateSplitterFields(sender)
-        let tipPercentages = [0.18,0.2,0.25]
+        let tipPercentages = [0.1,0.18,0.2,0.25]
         let bill = Double(billField.text!) ?? 0
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let waysSplit = Int(splitterCount.text!) ?? 1
